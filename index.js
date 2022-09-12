@@ -11,7 +11,10 @@ function handleClick(){
 
   if(randomNumber1>randomNumber2){
     document.querySelector("h1").innerHTML = "Yiui washes the dishes!";
-  }else{
+  }else if(randomNumber1<randomNumber2){
     document.querySelector("h1").innerHTML = "Tx washes the dishes!";
+  }else{
+    document.querySelector("h1").innerHTML = "Roll again!";
   }
+  document.querySelector("button").innerText = "Roll Again!";
 }
