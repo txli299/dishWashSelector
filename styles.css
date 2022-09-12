@@ -40,6 +40,7 @@ footer {
 
 }
 button{
+  background-color:white;
   display: flex;
   margin: auto;
   margin-top: 30px;
